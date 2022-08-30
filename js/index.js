@@ -11,9 +11,9 @@ $(document).ready(function () {
         const element = data[index];
 
         html +=
-          "<div class='col-auto'><div class='card' style='width: 18rem;'><input class='form-check-input m-2' type='checkbox' value='" +
+          "<div class='col-auto'><div class='card' style='width: 18rem;'><input class='form-check-input m-2 delete-checkbox' type='checkbox' value='" +
           element["id"] +
-          "' class='delete-checkbox' onclick='addDelete(" +
+          "' onclick='addDelete(" +
           element["id"] +
           ")'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4KK-Q2mcxD1oB5e3SPK-Sa0_eqpXkUaFe7t2gEuvYqA&s' style='height:300px;' class='card-img-top' alt='Banner'><div class='card-body'><h5 class='card-title' style='font-weight: bold;'>" +
           element["name"] +

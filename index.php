@@ -64,10 +64,10 @@
           </div>
           <div class="row">
             <div class="col-auto">
-              <a class="btn btn-danger" href="add-product.php" role="button">Add</a>
+              <a class="btn btn-danger" href="add-product.php" role="button">ADD</a>
             </div>
             <div class="col-auto">
-              <button class="btn btn-danger" role="button" id="delete-product-btn">Mass Delete</button>
+              <button class="btn btn-danger" role="button" id="delete-product-btn">MASS DELETE</button>
             </div>
           </div>
         </div>
