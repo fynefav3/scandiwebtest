@@ -1,10 +1,10 @@
 <?php
 class DB
 {
-    protected $dbHost     = "wgh25.wghservers.com:3306";
-    protected $dbUsername = "tafipalc_ihuoma";
-    protected $dbPassword = "B*KQckmFZn0V";
-    protected $dbName     = "tafipalc_scandiweb";
+    protected $dbHost     = "185.224.138.112";
+    protected $dbUsername = "u947126269_demo";
+    protected $dbPassword = "Pass@12345";
+    protected $dbName     = "u947126269_demo";
 
     public function __construct()
     {
