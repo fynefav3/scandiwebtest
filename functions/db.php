@@ -1,10 +1,10 @@
 <?php
 class DB
 {
-    protected $dbHost     = "localhost";
-    protected $dbUsername = "root";
-    protected $dbPassword = "Agbaru&&@9ihuoma";
-    protected $dbName     = "scandiweb";
+    protected $dbHost     = "23.94.16.6";
+    protected $dbUsername = "tafipalc_ihuoma";
+    protected $dbPassword = "B*KQckmFZn0V";
+    protected $dbName     = "tafipalc_scandiweb";
 
     public function __construct()
     {
