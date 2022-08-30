@@ -27,7 +27,7 @@ let size = id("size"),
   width = id("width"),
   length = id("length"),
   weight = id("weight"),
-  form = id("product-form"),
+  form = id("product_form"),
   label = id("labelForm"),
   pt = id("productType");
 

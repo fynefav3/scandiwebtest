@@ -25,15 +25,15 @@
                     </div>
                     <div class="col-auto"></div>
                     <div class="col-auto">
-                        <button class="btn btn-danger" form="product-form" type="submit" role="button" ">Save</button>
+                        <button class="btn btn-danger" form="product_form" type="submit" role="button" ">Save</button>
           </div>
           <div class=" col-auto">
-                            <button class="btn btn-danger" form="product-form" type="reset" role="button">Cancel</button>
+                            <button class="btn btn-danger" form="product_form" type="reset" role="button">Cancel</button>
                     </div>
                 </div>
                 <hr>
-                <div class="admin-product-form-container  font-rubik font-size-16">
-                    <form action="router/product.php" method="POST" id="product-form" required>
+                <div class="admin-product_form-container  font-rubik font-size-16">
+                    <form action="router/product.php" method="POST" id="product_form" required>
                         <div class="row g-2 align-items-center">
                             <div class="col-2 ">
                                 <label for="sku" class=" col-form-label">SKU</label>
