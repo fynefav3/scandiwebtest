@@ -1,7 +1,7 @@
 <?php
 class DB
 {
-    protected $dbHost     = "23.94.16.6";
+    protected $dbHost     = "wgh25.wghservers.com:3306";
     protected $dbUsername = "tafipalc_ihuoma";
     protected $dbPassword = "B*KQckmFZn0V";
     protected $dbName     = "tafipalc_scandiweb";
