@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Montserrat&family=Rubik&display=swap");
+/* Sass File*/
+button, button:focus {
+  outline: none !important;
+  box-shadow: none;
+  background-color: #ff003d;
+}
+
+.font-montserrat {
+  font-family: "Montserrat", cursive;
+}
+
+.font-baloo {
+  font-family: "Baloo 2", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #3D2E8A;
+}
+
+.color-primary-bg {
+  background: #3D2E8A;
+}
+
+.color-secondary {
+  color: #140F2E;
+}
+
+.color-secondary-bg {
+  background: #140F2E;
+}
+
+.color-white {
+  color: #F5F5F5;
+}
+
+.color-white-bg {
+  background: #F5F5F5;
+}
+
+/*# sourceMappingURL=style.css.map */
