@@ -22,7 +22,7 @@ class ApiController
     {
         //Requires Model FIle
         // var_dump(__DIR__);
-        require_once '../app/models/' . $modelParam . '.php';
+        require_once 'app/models/' . $modelParam . '.php';
 
         //Instantiate Model
         return new $modelParam();
@@ -32,8 +32,8 @@ class ApiController
     public function view($view, $data = [])
     {
         # check for view file
-        if (file_exists('../app/views/' . $view . '.php')) {
-            require_once '../app/views/' . $view . '.php';
+        if (file_exists('app/views/' . $view . '.php')) {
+            require_once 'app/views/' . $view . '.php';
         } else {
             die('view does not exist');
         }

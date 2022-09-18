@@ -18,14 +18,14 @@ class Core
         if (isset($url[0]) && $url[0] == 'api') {
             // var_dump($url);
             // print('apis');
-            if (file_exists('../app/controllers/api/' . ucwords($url[1]) . '.php')) {
+            if (file_exists('app/controllers/api/' . ucwords($url[1]) . '.php')) {
                 $this->currentController = ucwords($url[1]);
                 //unset 0  index
                 unset($url[1]);
             }
             // die($this->currentController . $this->currentMethod);
             //require controllers
-            require_once '../app/controllers/api/' . $this->currentController . '.php';
+            require_once 'app/controllers/api/' . $this->currentController . '.php';
             $this->currentController = new $this->currentController;
             //check
             if (isset($url[2])) {
@@ -45,13 +45,13 @@ class Core
         } else {
             // die;
             //Look for controllers
-            if (isset($url[0]) && file_exists('../app/controllers/' . ucwords($url[0]) . '.php')) {
+            if (isset($url[0]) && file_exists('app/controllers/' . ucwords($url[0]) . '.php')) {
                 $this->currentController = ucwords($url[0]);
                 //unset 0  index
                 unset($url[0]);
             }
             //require controllers
-            require_once '../app/controllers/' . $this->currentController . '.php';
+            require_once 'app/controllers/' . $this->currentController . '.php';
             $this->currentController = new $this->currentController;
             //check
             if (isset($url[1])) {

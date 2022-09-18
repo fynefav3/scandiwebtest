@@ -14,9 +14,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!--vanilla js-->
 <?php if ($page === 2) { ?>
-    <script src="<?= URLROOT ?>js/add-products.js"></script>
+    <script src="<?= URLROOT ?>public/js/add-product.js"></script>
 <?php } else { ?>
-    <script src="<?= URLROOT ?>js/index.js"></script>
+    <script src="<?= URLROOT ?>public/js/index.js"></script>
 <?php } ?>
 
 </body>
